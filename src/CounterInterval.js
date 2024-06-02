@@ -26,7 +26,7 @@ export default class CounterInterval extends Component {
     )
   }
 }
- */
+ *///
 
 
 export default function CounterInterval() {

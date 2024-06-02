@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    background-color: black;
+    padding: 10px;
+}
+.main{
+    width: 100%;
+    background-color: green;
+}
+.navbar{
+    width: 50%;
+    float: left;
+    background-color: green;
+    color: white;
+}
+.navbar li{
+  float:left;
+  list-style-type: none;
+  padding: 10px 30px;
+  background-color: rgb(9, 70, 9);
+  border: 1px solid gray;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li:hover {
+    background-color: green;
+}
+.navbar1{
+    float: right;
+    width: 50%;  
+    background-color: green;
+}
+.navbar1 li{
+    float: left;
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: rgb(9, 70, 9);
+    border: 1px solid gray;
+}
+.navbar1 li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar1 li:hover{
+    background-color: green;
+}
+.shirt{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+.shirt a{
+    text-decoration: none;
+    color: black;
+}
+table{
+    width: 40%;
+    text-align:center;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
